@@ -48,7 +48,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -165,8 +171,17 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.75
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -473,8 +488,16 @@
       ""
     ],
     [
-      "ae68600e-4614-494c-ac47-4a65e4f70f59",
+      "cd993629-6c9b-4aaf-8398-4c34dcfbdb86",
+      "NAND10"
+    ],
+    [
+      "66e0d322-1ca2-4802-88b1-3005ed55e6dc",
       "NAND11"
+    ],
+    [
+      "06ab5ff7-08c5-4acf-a383-c54beac705bc",
+      "D-Latch1"
     ],
     [
       "1964a911-d622-41af-9286-bec00cfc4577",
@@ -493,20 +516,52 @@
       "SR-Latch"
     ],
     [
-      "6ec43859-8a9a-4225-81ff-d535bdc822af",
-      "D-Latch1"
+      "cd993629-6c9b-4aaf-8398-4c34dcfbdb86",
+      "NAND10"
+    ],
+    [
+      "66e0d322-1ca2-4802-88b1-3005ed55e6dc",
+      "NAND11"
     ],
     [
       "c3778304-4080-4c33-9045-4be924987a87",
       "SR-Latch"
     ],
     [
-      "55596b9d-9d9b-4a63-97d1-996649033472",
-      "POWER"
+      "fb2984af-4086-41f4-b892-a97bad777a7f",
+      "NAND12"
     ],
     [
-      "379529dd-9d83-442a-86a6-7eb2b0c20cf8",
-      "NAND10"
+      "fb2984af-4086-41f4-b892-a97bad777a7f",
+      "NAND12"
+    ],
+    [
+      "5dea182e-8eec-42f4-b6e3-3ea5b5e59bcd",
+      "NAND13"
+    ],
+    [
+      "5dea182e-8eec-42f4-b6e3-3ea5b5e59bcd",
+      "NAND13"
+    ],
+    [
+      "7c637cd7-19d6-4fb6-9541-35fdc034f052",
+      "NAND14"
+    ],
+    [
+      "7c637cd7-19d6-4fb6-9541-35fdc034f052",
+      "NAND14"
+    ],
+    [
+      "fcf42d69-3a39-433f-8fab-bbfa887b6edb",
+      "NAND15"
+    ],
+    [
+      "2f48c72a-b163-4f76-a4e5-f71e2da6c478",
+      "NAND16"
+    ],
+    [
+      "55596b9d-9d9b-4a63-97d1-996649033472",
+      "POWER"
     ]
   ],
   "text_variables": {}

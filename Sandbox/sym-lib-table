@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SubStructures")(type "KiCad")(uri "${KIPRJMOD}/SubStructures.kicad_sym")(options "")(descr ""))
+)

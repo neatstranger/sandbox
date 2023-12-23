@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d2b7f745-e41e-49b3-82fb-ecf550bbb710)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 58.42 33.02) (size 24.13 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 21f69bf1-eb98-4c98-8415-1ecebf765a29)
+    (property "Sheetname" "NAND" (at 58.42 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "nand.kicad_sch" (at 58.42 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Sandbox"
+        (path "/29877ccf-0b52-4099-b1b5-9309bc9469f9/39edee8d-fafa-4861-800e-487bf353fc44" (page "3"))
+      )
+    )
+  )
+)

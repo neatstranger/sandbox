@@ -521,6 +521,42 @@
     [
       "a045141f-32c0-454f-b631-1faad20df108",
       "nand_gate4"
+    ],
+    [
+      "ec238f57-a4a9-49ac-b4d6-5b2cf534f59d",
+      "D-Latch1"
+    ],
+    [
+      "a045141f-32c0-454f-b631-1faad20df108",
+      "nand_gate4"
+    ],
+    [
+      "f651ee3b-b360-4503-b450-585d2efbc0c1",
+      "nand_gate2"
+    ],
+    [
+      "2fff6220-ea26-4c7a-b338-1daf9e2bd1fe",
+      "nand_gate"
+    ],
+    [
+      "659b1e05-0285-4e10-8241-c89ef9ba543f",
+      "nand_gate3"
+    ],
+    [
+      "0ad4044b-a9cd-452a-a5d6-d186c7bbd4c9",
+      "SR-Latch"
+    ],
+    [
+      "4a30fd53-976a-4ff9-a231-847958a3da52",
+      "nand_gate1"
+    ],
+    [
+      "a3bf6407-39cc-4653-b84b-6bf3ad40073d",
+      "nand_gate5"
+    ],
+    [
+      "6b1252e4-2750-42b5-a93b-a44fa920da6a",
+      "nand_gate6"
     ]
   ],
   "text_variables": {}

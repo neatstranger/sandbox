@@ -113,6 +113,7 @@
     (instances
       (project "nand_gate"
         (path "/ae45e9d9-ebb5-4d6c-8dad-99eadd2be5c5/2e87dc14-878c-467c-8594-4a57b58f886f/6b230bbb-3b41-4fd2-a79b-e0cf50894ec7/0ad4044b-a9cd-452a-a5d6-d186c7bbd4c9" (page "5"))
+        (path "/ae45e9d9-ebb5-4d6c-8dad-99eadd2be5c5/2e87dc14-878c-467c-8594-4a57b58f886f/ec238f57-a4a9-49ac-b4d6-5b2cf534f59d/0ad4044b-a9cd-452a-a5d6-d186c7bbd4c9" (page "13"))
       )
     )
   )
@@ -142,6 +143,7 @@
     (instances
       (project "nand_gate"
         (path "/ae45e9d9-ebb5-4d6c-8dad-99eadd2be5c5/2e87dc14-878c-467c-8594-4a57b58f886f/6b230bbb-3b41-4fd2-a79b-e0cf50894ec7/0ad4044b-a9cd-452a-a5d6-d186c7bbd4c9" (page "6"))
+        (path "/ae45e9d9-ebb5-4d6c-8dad-99eadd2be5c5/2e87dc14-878c-467c-8594-4a57b58f886f/ec238f57-a4a9-49ac-b4d6-5b2cf534f59d/0ad4044b-a9cd-452a-a5d6-d186c7bbd4c9" (page "16"))
       )
     )
   )

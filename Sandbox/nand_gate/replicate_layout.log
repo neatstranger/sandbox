@@ -1,70 +1,69 @@
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'darwin'
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.9
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x12ee044c0>
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with D1 as a reference
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'D1'
-Located on: ['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate1']
-With filenames: ['/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/D-Flip-Flop.kicad_sch', '/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/D-Latch.kicad_sch', '/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/SR_LATCH.kicad_sch', '/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/nand__gate.kicad_sch']
-With sheet_id:['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate1']
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
-[('D2', ['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate']), ('D1', ['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate1']), ('D5', ['D-Flip Flop', 'D-Latch', 'nand_gate4']), ('D3', ['D-Flip Flop', 'D-Latch', 'nand_gate2']), ('D4', ['D-Flip Flop', 'D-Latch', 'nand_gate3'])]
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'nand_gate1', file:'/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/nand__gate.kicad_sch'
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate'], ['D-Flip Flop', 'D-Latch', 'nand_gate2'], ['D-Flip Flop', 'D-Latch', 'nand_gate3'], ['D-Flip Flop', 'D-Latch', 'nand_gate4']]
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate1']
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1416, 139)
-12-24 21:27:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(977, 139)
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'nand_gate1', file:'/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/nand__gate.kicad_sch'
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate'], ['D-Flip Flop', 'D-Latch', 'nand_gate2'], ['D-Flip Flop', 'D-Latch', 'nand_gate3'], ['D-Flip Flop', 'D-Latch', 'nand_gate4']]
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['D-Flip Flop', 'D-Latch', 'nand_gate2'], ['D-Flip Flop', 'D-Latch', 'nand_gate3'], ['D-Flip Flop', 'D-Latch', 'nand_gate4']]
-on level: ['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate1']
-with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
-12-24 21:27:47 root 332:updating GUI message: 'Preparing for replication'
-12-24 21:27:47 root 337:updating GUI with: 0
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
-12-24 21:27:47 root 337:updating GUI with: 50
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
-12-24 21:27:47 root 332:updating GUI message: 'Replicating footprints'
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate2']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate3']
-12-24 21:27:47 root 337:updating GUI with: 41
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate4']
-12-24 21:27:47 root 332:updating GUI message: 'Replicating tracks'
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate2']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['D-Flip Flop', 'D-Latch', 'nand_gate2'] :[('Net-(Q2-B)', 'Net-(Q8-B)'), ('Net-(Q1-B)', 'Net-(Q7-B)'), ('VCC', 'VCC'), ('Net-(Q3-E)', 'Net-(Q9-E)'), ('/D-Flip Flop/D-Latch/!Q', '/D-Flip Flop/D-Latch/SR-Latch/Set'), ('Net-(Q1-E)', 'Net-(Q7-E)'), ('/D-Flip Flop/D-Latch/Q', '/D-Flip Flop/D-Latch/Data'), ('GND', 'GND'), ('/D-Flip Flop/D-Latch/SR-Latch/Reset', '/D-Flip Flop/D-Latch/Enable'), ('Net-(Q1-C)', 'Net-(Q7-C)')]
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate3']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['D-Flip Flop', 'D-Latch', 'nand_gate3'] :[('Net-(Q1-C)', 'Net-(Q10-C)'), ('/D-Flip Flop/D-Latch/!Q', '/D-Flip Flop/D-Latch/SR-Latch/Reset'), ('VCC', 'VCC'), ('Net-(Q2-B)', 'Net-(Q11-B)'), ('/D-Flip Flop/D-Latch/SR-Latch/Reset', '/D-Flip Flop/D-Latch/nand_gate3/B'), ('Net-(Q3-E)', 'Net-(Q12-E)'), ('Net-(Q1-B)', 'Net-(Q10-B)'), ('GND', 'GND'), ('/D-Flip Flop/D-Latch/Q', '/D-Flip Flop/D-Latch/Enable'), ('Net-(Q1-E)', 'Net-(Q10-E)')]
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate4']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['D-Flip Flop', 'D-Latch', 'nand_gate4'] :[('/D-Flip Flop/D-Latch/SR-Latch/Reset', '/D-Flip Flop/D-Latch/Data'), ('VCC', 'VCC'), ('/D-Flip Flop/D-Latch/!Q', '/D-Flip Flop/D-Latch/nand_gate3/B'), ('Net-(Q1-E)', 'Net-(Q13-E)'), ('/D-Flip Flop/D-Latch/Q', '/D-Flip Flop/D-Latch/Data'), ('Net-(Q1-C)', 'Net-(Q13-C)'), ('Net-(Q2-B)', 'Net-(Q14-B)'), ('GND', 'GND'), ('Net-(Q1-B)', 'Net-(Q13-B)'), ('Net-(Q3-E)', 'Net-(Q15-E)')]
-12-24 21:27:47 root 332:updating GUI message: 'Replicating zones'
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
-12-24 21:27:47 root 337:updating GUI with: 0
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate2']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['D-Flip Flop', 'D-Latch', 'nand_gate2'] :[('Net-(Q2-B)', 'Net-(Q8-B)'), ('Net-(Q1-B)', 'Net-(Q7-B)'), ('VCC', 'VCC'), ('Net-(Q3-E)', 'Net-(Q9-E)'), ('/D-Flip Flop/D-Latch/!Q', '/D-Flip Flop/D-Latch/SR-Latch/Set'), ('Net-(Q1-E)', 'Net-(Q7-E)'), ('/D-Flip Flop/D-Latch/Q', '/D-Flip Flop/D-Latch/Data'), ('GND', 'GND'), ('/D-Flip Flop/D-Latch/SR-Latch/Reset', '/D-Flip Flop/D-Latch/Enable'), ('Net-(Q1-C)', 'Net-(Q7-C)')]
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate3']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['D-Flip Flop', 'D-Latch', 'nand_gate3'] :[('Net-(Q1-C)', 'Net-(Q10-C)'), ('/D-Flip Flop/D-Latch/!Q', '/D-Flip Flop/D-Latch/SR-Latch/Reset'), ('VCC', 'VCC'), ('Net-(Q2-B)', 'Net-(Q11-B)'), ('/D-Flip Flop/D-Latch/SR-Latch/Reset', '/D-Flip Flop/D-Latch/nand_gate3/B'), ('Net-(Q3-E)', 'Net-(Q12-E)'), ('Net-(Q1-B)', 'Net-(Q10-B)'), ('GND', 'GND'), ('/D-Flip Flop/D-Latch/Q', '/D-Flip Flop/D-Latch/Enable'), ('Net-(Q1-E)', 'Net-(Q10-E)')]
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate4']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['D-Flip Flop', 'D-Latch', 'nand_gate4'] :[('/D-Flip Flop/D-Latch/SR-Latch/Reset', '/D-Flip Flop/D-Latch/Data'), ('VCC', 'VCC'), ('/D-Flip Flop/D-Latch/!Q', '/D-Flip Flop/D-Latch/nand_gate3/B'), ('Net-(Q1-E)', 'Net-(Q13-E)'), ('/D-Flip Flop/D-Latch/Q', '/D-Flip Flop/D-Latch/Data'), ('Net-(Q1-C)', 'Net-(Q13-C)'), ('Net-(Q2-B)', 'Net-(Q14-B)'), ('GND', 'GND'), ('Net-(Q1-B)', 'Net-(Q13-B)'), ('Net-(Q3-E)', 'Net-(Q15-E)')]
-12-24 21:27:47 root 332:updating GUI message: 'Replicating text'
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate2']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate3']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate4']
-12-24 21:27:47 root 332:updating GUI message: 'Replicating drawings'
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate2']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate3']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['D-Flip Flop', 'D-Latch', 'nand_gate4']
-12-24 21:27:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'darwin'
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.9
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x12ce444c0>
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with Q11 as a reference
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'Q11'
+Located on: ['D-Flip Flop', 'D-Latch', 'nand_gate3']
+With filenames: ['/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/D-Flip-Flop.kicad_sch', '/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/D-Latch.kicad_sch', '/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/nand__gate.kicad_sch']
+With sheet_id:['D-Flip Flop', 'D-Latch', 'nand_gate3']
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('Q35', ['D-Flip Flop', 'nand_gate6']), ('Q32', ['D-Flip Flop', 'nand_gate5']), ('Q29', ['D-Flip Flop', 'D-Latch1', 'SR-Latch', 'nand_gate1']), ('Q26', ['D-Flip Flop', 'D-Latch1', 'nand_gate3']), ('Q23', ['D-Flip Flop', 'D-Latch1', 'SR-Latch', 'nand_gate']), ('Q20', ['D-Flip Flop', 'D-Latch1', 'nand_gate2']), ('Q17', ['D-Flip Flop', 'D-Latch1', 'nand_gate4']), ('Q11', ['D-Flip Flop', 'D-Latch', 'nand_gate3']), ('Q8', ['D-Flip Flop', 'D-Latch', 'nand_gate2']), ('Q14', ['D-Flip Flop', 'D-Latch', 'nand_gate4']), ('Q5', ['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate']), ('Q2', ['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate1'])]
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'nand_gate3', file:'/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/nand__gate.kicad_sch'
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate'], ['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate1'], ['D-Flip Flop', 'D-Latch', 'nand_gate2'], ['D-Flip Flop', 'D-Latch', 'nand_gate4'], ['D-Flip Flop', 'D-Latch1', 'SR-Latch', 'nand_gate'], ['D-Flip Flop', 'D-Latch1', 'SR-Latch', 'nand_gate1'], ['D-Flip Flop', 'D-Latch1', 'nand_gate2'], ['D-Flip Flop', 'D-Latch1', 'nand_gate3'], ['D-Flip Flop', 'D-Latch1', 'nand_gate4'], ['D-Flip Flop', 'nand_gate5'], ['D-Flip Flop', 'nand_gate6']]
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['D-Flip Flop', 'D-Latch', 'nand_gate3']
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1473, 139)
+12-24 23:15:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1034, 139)
+12-24 23:15:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'nand_gate3', file:'/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/nand__gate.kicad_sch'
+12-24 23:15:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate'], ['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate1'], ['D-Flip Flop', 'D-Latch', 'nand_gate2'], ['D-Flip Flop', 'D-Latch', 'nand_gate4'], ['D-Flip Flop', 'D-Latch1', 'SR-Latch', 'nand_gate'], ['D-Flip Flop', 'D-Latch1', 'SR-Latch', 'nand_gate1'], ['D-Flip Flop', 'D-Latch1', 'nand_gate2'], ['D-Flip Flop', 'D-Latch1', 'nand_gate3'], ['D-Flip Flop', 'D-Latch1', 'nand_gate4'], ['D-Flip Flop', 'nand_gate5'], ['D-Flip Flop', 'nand_gate6']]
+12-24 23:15:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['D-Flip Flop', 'D-Latch', 'nand_gate3']
+12-24 23:15:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+12-24 23:15:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'nand_gate3', file:'/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/nand__gate.kicad_sch'
+12-24 23:15:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate'], ['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate1'], ['D-Flip Flop', 'D-Latch', 'nand_gate2'], ['D-Flip Flop', 'D-Latch', 'nand_gate4'], ['D-Flip Flop', 'D-Latch1', 'SR-Latch', 'nand_gate'], ['D-Flip Flop', 'D-Latch1', 'SR-Latch', 'nand_gate1'], ['D-Flip Flop', 'D-Latch1', 'nand_gate2'], ['D-Flip Flop', 'D-Latch1', 'nand_gate3'], ['D-Flip Flop', 'D-Latch1', 'nand_gate4'], ['D-Flip Flop', 'nand_gate5'], ['D-Flip Flop', 'nand_gate6']]
+12-24 23:15:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['D-Flip Flop', 'D-Latch', 'nand_gate3']
+12-24 23:15:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'nand_gate3', file:'/Users/ashtonmiller/Projects/sandbox/Sandbox/nand_gate/nand__gate.kicad_sch'
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate'], ['D-Flip Flop', 'D-Latch', 'SR-Latch', 'nand_gate1'], ['D-Flip Flop', 'D-Latch', 'nand_gate2'], ['D-Flip Flop', 'D-Latch', 'nand_gate4'], ['D-Flip Flop', 'D-Latch1', 'SR-Latch', 'nand_gate'], ['D-Flip Flop', 'D-Latch1', 'SR-Latch', 'nand_gate1'], ['D-Flip Flop', 'D-Latch1', 'nand_gate2'], ['D-Flip Flop', 'D-Latch1', 'nand_gate3'], ['D-Flip Flop', 'D-Latch1', 'nand_gate4'], ['D-Flip Flop', 'nand_gate5'], ['D-Flip Flop', 'nand_gate6']]
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['D-Flip Flop', 'nand_gate5'], ['D-Flip Flop', 'nand_gate6']]
+on level: ['D-Flip Flop', 'D-Latch', 'nand_gate3']
+with tracks=True, zone=True, text=True, text=True, intersecting=True, remove=False, locked footprints=False, group_only=False
+12-24 23:15:33 root 332:updating GUI message: 'Preparing for replication'
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+12-24 23:15:33 root 337:updating GUI with: 0
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+12-24 23:15:33 root 332:updating GUI message: 'Replicating footprints'
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['D-Flip Flop', 'nand_gate5']
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['D-Flip Flop', 'nand_gate6']
+12-24 23:15:33 root 332:updating GUI message: 'Replicating tracks'
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['D-Flip Flop', 'nand_gate5']
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['D-Flip Flop', 'nand_gate5'] :[('/D-Flip Flop/D-Latch/nand_gate3/B', '/D-Flip Flop/Clock'), ('Net-(Q12-E)', 'Net-(Q33-E)'), ('/D-Flip Flop/D-Latch/Enable', '/D-Flip Flop/Clock'), ('Net-(Q10-E)', 'Net-(Q31-E)'), ('Net-(Q10-C)', 'Net-(Q31-C)'), ('GND', 'GND'), ('Net-(Q10-B)', 'Net-(Q31-B)'), ('VCC', 'VCC'), ('/D-Flip Flop/D-Latch/SR-Latch/Reset', '/D-Flip Flop/D-Latch/Enable'), ('Net-(Q11-B)', 'Net-(Q32-B)')]
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['D-Flip Flop', 'nand_gate6']
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['D-Flip Flop', 'nand_gate6'] :[('Net-(Q12-E)', 'Net-(Q36-E)'), ('/D-Flip Flop/D-Latch/nand_gate3/B', '/D-Flip Flop/D-Latch/Enable'), ('/D-Flip Flop/D-Latch/Enable', '/D-Flip Flop/D-Latch/Enable'), ('Net-(Q10-B)', 'Net-(Q34-B)'), ('Net-(Q11-B)', 'Net-(Q35-B)'), ('GND', 'GND'), ('/D-Flip Flop/D-Latch/SR-Latch/Reset', '/D-Flip Flop/D-Latch1/Enable'), ('Net-(Q10-C)', 'Net-(Q34-C)'), ('Net-(Q10-E)', 'Net-(Q34-E)'), ('VCC', 'VCC')]
+12-24 23:15:33 root 332:updating GUI message: 'Replicating zones'
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['D-Flip Flop', 'nand_gate5']
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['D-Flip Flop', 'nand_gate5'] :[('/D-Flip Flop/D-Latch/nand_gate3/B', '/D-Flip Flop/Clock'), ('Net-(Q12-E)', 'Net-(Q33-E)'), ('/D-Flip Flop/D-Latch/Enable', '/D-Flip Flop/Clock'), ('Net-(Q10-E)', 'Net-(Q31-E)'), ('Net-(Q10-C)', 'Net-(Q31-C)'), ('GND', 'GND'), ('Net-(Q10-B)', 'Net-(Q31-B)'), ('VCC', 'VCC'), ('/D-Flip Flop/D-Latch/SR-Latch/Reset', '/D-Flip Flop/D-Latch/Enable'), ('Net-(Q11-B)', 'Net-(Q32-B)')]
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['D-Flip Flop', 'nand_gate6']
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['D-Flip Flop', 'nand_gate6'] :[('Net-(Q12-E)', 'Net-(Q36-E)'), ('/D-Flip Flop/D-Latch/nand_gate3/B', '/D-Flip Flop/D-Latch/Enable'), ('/D-Flip Flop/D-Latch/Enable', '/D-Flip Flop/D-Latch/Enable'), ('Net-(Q10-B)', 'Net-(Q34-B)'), ('Net-(Q11-B)', 'Net-(Q35-B)'), ('GND', 'GND'), ('/D-Flip Flop/D-Latch/SR-Latch/Reset', '/D-Flip Flop/D-Latch1/Enable'), ('Net-(Q10-C)', 'Net-(Q34-C)'), ('Net-(Q10-E)', 'Net-(Q34-E)'), ('VCC', 'VCC')]
+12-24 23:15:33 root 332:updating GUI message: 'Replicating text'
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+12-24 23:15:33 root 337:updating GUI with: 0
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['D-Flip Flop', 'nand_gate5']
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['D-Flip Flop', 'nand_gate6']
+12-24 23:15:33 root 332:updating GUI message: 'Replicating drawings'
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['D-Flip Flop', 'nand_gate5']
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['D-Flip Flop', 'nand_gate6']
+12-24 23:15:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete

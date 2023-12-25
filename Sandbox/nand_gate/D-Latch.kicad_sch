@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a968ead8-b472-4b1c-9247-12522eee6f14)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 91.44 58.42) (size 35.56 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0ad4044b-a9cd-452a-a5d6-d186c7bbd4c9)
+    (property "Sheetname" "SR-Latch" (at 91.44 57.7084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SR_LATCH.kicad_sch" (at 91.44 78.0546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nand_gate"
+        (path "/ae45e9d9-ebb5-4d6c-8dad-99eadd2be5c5/2e87dc14-878c-467c-8594-4a57b58f886f/6b230bbb-3b41-4fd2-a79b-e0cf50894ec7" (page "4"))
+      )
+    )
+  )
+)

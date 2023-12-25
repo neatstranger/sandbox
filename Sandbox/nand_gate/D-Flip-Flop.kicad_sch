@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6ad2b467-d959-46a2-b6d3-3ab14d6e89ba)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 64.77 49.53) (size 29.21 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6b230bbb-3b41-4fd2-a79b-e0cf50894ec7)
+    (property "Sheetname" "D-Latch" (at 64.77 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "D-Latch.kicad_sch" (at 64.77 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nand_gate"
+        (path "/ae45e9d9-ebb5-4d6c-8dad-99eadd2be5c5/2e87dc14-878c-467c-8594-4a57b58f886f" (page "3"))
+      )
+    )
+  )
+)

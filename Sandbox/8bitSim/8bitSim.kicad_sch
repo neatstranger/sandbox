@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 30188d90-9b6a-49be-83e2-fe1d156a3af6)
+
+  (paper "A1")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 193.04 81.28) (size 40.64 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ddf59692-b9f1-42eb-b6d2-4bf0bdbc3ef7)
+    (property "Sheetname" "Gates" (at 193.04 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Gates.kicad_sch" (at 193.04 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "8bitSim"
+        (path "/30188d90-9b6a-49be-83e2-fe1d156a3af6" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 402.59 167.64) (size 54.61 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e66fb940-125c-4b22-af52-3844fbfa054d)
+    (property "Sheetname" "Register" (at 402.59 166.9284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Register.kicad_sch" (at 402.59 202.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "8bitSim"
+        (path "/30188d90-9b6a-49be-83e2-fe1d156a3af6" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

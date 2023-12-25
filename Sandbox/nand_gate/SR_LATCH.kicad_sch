@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1df2e262-9eaa-4d65-a492-416a085b2854)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 66.04 49.53) (size 46.99 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2fff6220-ea26-4c7a-b338-1daf9e2bd1fe)
+    (property "Sheetname" "nand_gate" (at 66.04 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "nand__gate.kicad_sch" (at 66.04 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nand_gate"
+        (path "/ae45e9d9-ebb5-4d6c-8dad-99eadd2be5c5/2e87dc14-878c-467c-8594-4a57b58f886f/6b230bbb-3b41-4fd2-a79b-e0cf50894ec7/0ad4044b-a9cd-452a-a5d6-d186c7bbd4c9" (page "5"))
+      )
+    )
+  )
+)

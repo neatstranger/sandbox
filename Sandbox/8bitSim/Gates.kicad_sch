@@ -1,0 +1,47 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid dbba7756-42c7-4eda-a66d-009f29093284)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 170.18 68.58) (size 19.05 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9be1212c-82ba-474f-a6bd-62c7a84b7c61)
+    (property "Sheetname" "NAND" (at 170.18 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "nand.kicad_sch" (at 170.18 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "C" input (at 189.23 74.93 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 2f80c379-7edf-4a38-a475-4b32a44ea203)
+    )
+    (pin "A" input (at 170.18 71.12 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 7634a639-1a5e-4fef-9a9d-3fa388d5b764)
+    )
+    (pin "B" input (at 170.18 77.47 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 847ca295-c5d7-467b-9c75-5c77340bbc20)
+    )
+    (pin "VCC" input (at 180.34 68.58 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 6acda606-2261-4f60-bc92-8fb532511057)
+    )
+    (pin "GND" input (at 180.34 80.01 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 501cac5c-691f-4110-bf44-4a5d29fb79b5)
+    )
+    (instances
+      (project "8bitSim"
+        (path "/30188d90-9b6a-49be-83e2-fe1d156a3af6/ddf59692-b9f1-42eb-b6d2-4bf0bdbc3ef7" (page "3"))
+      )
+    )
+  )
+)

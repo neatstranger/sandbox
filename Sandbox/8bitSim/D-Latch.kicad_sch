@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 83b043ea-cd59-4215-8d4d-dc95f0d7f065)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 128.27 63.5) (size 40.64 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a962d003-6fca-4b0c-9431-31ad4d60469c)
+    (property "Sheetname" "SR_Latch" (at 128.27 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SR_Latch.kicad_sch" (at 128.27 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "8bitSim"
+        (path "/30188d90-9b6a-49be-83e2-fe1d156a3af6/e66fb940-125c-4b22-af52-3844fbfa054d/82e76328-5478-4b9e-974e-a55b56ffedb5" (page "7"))
+      )
+    )
+  )
+)

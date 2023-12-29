@@ -1,0 +1,44 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 14af962c-4211-4832-89a3-367513003111)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 113.03 60.96) (size 41.91 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 82e76328-5478-4b9e-974e-a55b56ffedb5)
+    (property "Sheetname" "D-Latch" (at 113.03 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "D-Latch.kicad_sch" (at 113.03 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "8bitSim"
+        (path "/30188d90-9b6a-49be-83e2-fe1d156a3af6/e66fb940-125c-4b22-af52-3844fbfa054d" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 431.8 181.61) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a9a346e2-6a39-4235-86e7-b0bd105f8ce4)
+    (property "Sheetname" "D-Flip-Flop" (at 431.8 180.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "D-Flip-Flop.kicad_sch" (at 431.8 186.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "8bitSim"
+        (path "/30188d90-9b6a-49be-83e2-fe1d156a3af6/e66fb940-125c-4b22-af52-3844fbfa054d" (page "5"))
+      )
+    )
+  )
+)

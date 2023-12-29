@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ae45e9d9-ebb5-4d6c-8dad-99eadd2be5c5)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 165.1 88.9) (size 34.29 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2e87dc14-878c-467c-8594-4a57b58f886f)
+    (property "Sheetname" "D-Flip Flop" (at 165.1 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "D-Flip-Flop.kicad_sch" (at 165.1 111.0746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "nand_gate"
+        (path "/ae45e9d9-ebb5-4d6c-8dad-99eadd2be5c5" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -557,6 +557,10 @@
     [
       "6b1252e4-2750-42b5-a93b-a44fa920da6a",
       "nand_gate6"
+    ],
+    [
+      "8447b6cb-b3bc-4fc0-a2ac-2dd993ffbb2f",
+      "nand_gate7"
     ]
   ],
   "text_variables": {}
